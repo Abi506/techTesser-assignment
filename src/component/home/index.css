@@ -1,0 +1,66 @@
+.home-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:100vh;
+}
+.image-container{
+    background-image: url("https://res.cloudinary.com/dkmnh0kwl/image/upload/v1707812331/blank-golden-leafy-frame_53876-100787_irxn2j.avif");
+    height: 90vh;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    padding:10px;
+    align-items: center;
+
+}
+.form-section{
+    width:50%;
+}
+.each-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.label-styles{
+    margin:10px;
+}
+.input-box{
+    width:200px;
+    margin-left:10px;
+    padding:10px;
+    outline:none;
+    border-radius:5px;
+}
+.function-name{
+    color:green;
+    font-style: italic; 
+    font-family: Great Vibes;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.bride-styles{
+    font-family: Great vibes;
+    color:black;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-style: italic;
+}
+.weds-styles{
+    font-family: Great vibes;
+    color:black;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-style: italic; 
+}
+.date-styles{
+    font-style: italic;
+    font-family: Great vibes;
+    font-weight: 300;
+    color:rgb(53, 52, 52);
+}
